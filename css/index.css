@@ -1,0 +1,117 @@
+.form{
+	margin-top: 2%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrap{
+	width: 65%;
+	margin: 0 auto;
+	/*border:1px solid #ccc;*/
+	overflow: hidden;
+}
+
+.logo{
+	float: left;
+  	text-align: center;
+}
+
+.logo a{
+	width: 128px;
+  	height: 100px;
+  	display: block;
+  	margin: auto;
+  	background: url(../images/intel.png) no-repeat
+}
+
+.top-nav{
+	float: right
+}
+
+.top-nav ul li{
+	display: inline-block;
+  	padding-top: 3em;
+  	padding-left: 1em;
+  	padding-right: 1em;
+}
+
+.top-nav ul li a {
+	color: #222;
+  	font-family: 'permianslabseriftypefaceRg';
+ 	display: block;
+ 	font-size: 16px;
+ 	text-decoration: none;
+}
+
+.top-nav ul li:first-child :before {
+  content: url(../images/home-icon.png) no-repeat 50%;
+  vertical-align: sub;
+}
+
+.top-nav ul li.active a{
+	background: url(../images/active-pointer.png) no-repeat 50% 100%;
+  	padding-bottom: 15px;
+}
+
+.clear{
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.slider{
+	background: #F7F7F7;
+	padding: 3em 0;
+}
+
+.slider-left{
+	float: left;
+  	width: 46%;
+  	margin-right: 2%;
+  	margin-top: 1.8em;
+}
+
+.slider-left h1 {
+  font-size: 2em;
+  line-height: 1.2em;
+  font-weight: 400;
+  width: 79%;
+}
+
+.slider-left p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  color: #A8A8A8;
+  width: 79%;
+  font-weight: 400;
+  line-height: 1.8em;
+  margin: 2em 0;
+}
+
+.slider-left label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  color: #A8A8A8;
+  width: 76%;
+  font-weight: 400;
+  line-height: 1.8em;
+  margin: 0px 0px 0.6em 0;
+  display: block;
+}
+
+
+#txtEmailAddress{
+	width: 65%;
+}
+
+.slider-right{
+	float: right;
+  	width: 50%;
+}
+
+
